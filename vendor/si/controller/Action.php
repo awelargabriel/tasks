@@ -19,7 +19,15 @@ class Action
 	public function render($action, $layout=true)
 	{
 		$this->action = $action;
+		if($layout == true && file_exists("../App/views/layout.phtml"))
+		{
+			include_once "../App/views/layout.phtml";
+		}
+		else
+		{
 		$this->content();
+		}
+
 	}
 
 	public function content()
