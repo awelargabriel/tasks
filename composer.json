@@ -1,0 +1,18 @@
+{
+    "name": "projetos/tasks",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gabriel Avelar",
+            "email": "gabrielawelar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "app\\" : "app/",
+            "si\\" : "vendor/si/" 
+        }
+    }
+}
