@@ -33,10 +33,7 @@ class Action
 	public function content()
 	{
 		$actual = get_class($this);
-		var_dump($actual);
 		$singleClassName = strtolower(str_replace("app\\controllers\\", "", $actual));
-		var_dump($singleClassName);
-		var_dump($this->action); exit;
 		include_once '../app/views/' . $singleClassName . '/' .$this->action/add/index;
 	}
 }

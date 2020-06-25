@@ -1,1 +1,31 @@
-<h1>Estou na action do controller index<h1>
+<section id="formulario">
+	<h2>Cadastrar nova tarefa</h2>
+	<form method="post" action="/add">
+		<input type="text" name="nome" id="nome" required="required" />
+		<input type="text" name="descricao" id="descricao" />
+		<input type="date" name="prazo" id="prazo" />
+		<input type="radio" name="prioridade" id="baixa" value="baixa" />
+		<label for="baixa">Baixa</label>
+		<input type="radio" name="prioridade" id="media" value="media" />
+		<label for="media" >Média</label>
+		<input type="radio" name="prioridade" id="alta" value="alta" />
+		<label for="alta">Alta</label>
+		<input type="checkbox" name="finalizada" id="finalizada">
+		<label for="finalizada">Finalizada</label>
+
+		<input type="submit" name="salvar" id="salvar" value="salvar">
+	</form>
+	<!--Formulário-->
+		
+</section>
+<!--Titulo-->
+<section id="tabela">
+	<h2>Tarefas</h2>
+	<!-- Tabela-->
+		<!-- Nome (input text)-->
+		<!-- Descrição (input text)-->
+		<!-- Prazo (input text)-->
+		<!--Prioridade (option)-->
+		<!-- Finalizada (checkbox)-->
+</section>
+

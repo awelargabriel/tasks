@@ -15,7 +15,8 @@ class Index extends Action
 
 	//Action add
 	public function add()
-	{
+	{	
+		var_dump($Post)
 		$this->render('add');
 	}
 
